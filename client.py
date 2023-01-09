@@ -58,5 +58,4 @@ if __name__ == "__main__":
             correct_price[stock]= price
             print("Quoted %s at (bid:%s, ask:%s, price:%s)" % (stock, bid_price, ask_price, price))
 
-        print("Ratio %s" % getRatio(price, price))
         print("Ratio %s" % getRatio(correct_price['ABC'], correct_price['DEF']))
